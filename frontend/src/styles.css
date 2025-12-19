@@ -1,0 +1,93 @@
+/* ---------- Global ---------- */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f7f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #0366d6;
+  margin-right: 12px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+button:hover {
+  background: #eee;
+}
+
+input {
+  padding: 6px;
+  margin: 5px 0;
+  width: 250px;
+}
+
+/* ---------- Layout ---------- */
+.container {
+  padding: 20px;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background: #222;
+  padding: 12px 20px;
+  color: #fff;
+}
+
+.navbar a {
+  color: #fff;
+  margin-right: 15px;
+}
+
+.navbar button {
+  margin-left: 10px;
+  background: #444;
+  color: #fff;
+  border: none;
+}
+
+.navbar button:hover {
+  background: #666;
+}
+
+/* ---------- Forms ---------- */
+.form-box {
+  background: #fff;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+/* ---------- Admin ---------- */
+.admin-list {
+  background: #fff;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+
+.admin-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* ---------- Store ---------- */
+.product-card {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.05);
+}
